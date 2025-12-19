@@ -143,6 +143,12 @@ body {
   padding: 0;
 }
 
+.rum {
+  float: right;
+  padding: 0px;
+  margin: 0px;
+}
+
 .updates ul {
   margin: 0px;
   padding: 3px;
@@ -360,7 +366,7 @@ a {
 
 /* blog stuff */
 
-.blogtitle h1 {
+/* .blogtitle h1 {
   font-size: 32px;
   color: var(--black);
   text-shadow:
@@ -374,7 +380,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: 10px; */
   background-color: var(--light);
   border: 1px dashed var(--accent2);
   border-radius: 10px;
@@ -443,4 +448,4 @@ a {
     1px 1px 2px var(--accent1),
     -1px 1px 2px var(--accent1), 1px -1px 2px var(--accent3),
     -1px -1px 2px var(--accent3);
-}
+} */
