@@ -71,6 +71,58 @@
       text-shadow: 0px 0px 3px #f5f7fa;
       font-weight: 600;
     }
+
+    .run-rum {
+      position: fixed;
+      bottom: 20px;
+      right: -80px;
+      z-index: 9999;
+      pointer-events: none;
+      animation: bunny-run 14s linear infinite;
+    }
+
+    @keyframes bunny-run {
+      0% {
+        transform: translateX(0) translateY(0) scaleX(1);
+      }
+
+      10% {
+        transform: translateX(-10vw) translateY(-8px) scaleX(1);
+      }
+
+      20% {
+        transform: translateX(-20vw) translateY(0) scaleX(1);
+      }
+
+      30% {
+        transform: translateX(-30vw) translateY(-10px) scaleX(1);
+      }
+
+      40% {
+        transform: translateX(-40vw) translateY(0) scaleX(1);
+      }
+
+      50% {
+        transform: translateX(-50vw) translateY(-6px) scaleX(1);
+      }
+
+      60% {
+        transform: translateX(-60vw) translateY(0) scaleX(1);
+      }
+
+      70% {
+        transform: translateX(-70vw) translateY(-12px) scaleX(1);
+      }
+
+      80% {
+        transform: translateX(-80vw) translateY(0) scaleX(1);
+      }
+
+      100% {
+        transform: translateX(calc(-100vw - 160px)) translateY(0) scaleX(1);
+      }
+    }
+    }
   </style>
 </head>
 
@@ -104,6 +156,7 @@
     </div>
     <img src="media/rummy/rainbows.webp">
   </div>
+  <img src="media/rummy/rummmy.png" class="run-rum">
 </body>
 
 </html>
