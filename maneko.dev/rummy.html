@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="styles/style.css" rel="stylesheet" type="text/css" />
-  <title>ʚ₍ᐢ. .ᐢ₎ɞ</title>
+  <link href="media/rummy/favico.gif" rel="icon" type="image/x-icon" />
+  <title>ʚ₍ᐢ. .ᐢ₎ɞ ~ rummy</title>
 
   <style>
     html,
@@ -13,25 +14,53 @@
       background-image: url(/media/rummy/bg.png);
       background-repeat: repeat;
       background-size: auto;
+      cursor: url(/media/rummy/cursor.webp), auto;
+      font-family: 'Courier New', Courier, monospace;
     }
 
-    img {
-      width: 400px;
+    h1 {
+      font-family: 'Courier New', Courier, monospace;
+      color: #9eacd3;
+      text-shadow: 0px 0px 7px #AFBDE2;
+    }
+
+    .simg {
+      width: 300px;
       height: 300px;
       object-fit: cover;
+      border: 2px solid #f8f8fada;
+      border-radius: 5px;
+      box-shadow: 0px 0px 7px 2px #EFF2F9;
+    }
+
+    .page-wrap {
+      gap: 20px;
+    }
+
+    .title {
+      width: 350px;
+      background-color: #eff2f9e0;
+      padding: 10px;
+      border: 1px solid #eff2f9e0;
+      border-radius: 5px;
+      box-shadow: 0px 0px 7px 2px #EFF2F9;
     }
   </style>
 </head>
 
 <body>
   <div class="page-wrap">
+    <div class="title">
+      <h1>in loving memory of my beautiful girl Rumchatta aka Rummy.</h1>
+    </div>
+    <img src="media/rummy/rainbows.webp">
     <div class="main-container">
-      <img src="media/rummy/sit.webp">
-      <img src="media/rummy/look.webp">
-      <img src="media/rummy/small.webp">
-      <img src="media/rummy/yawn.webp">
-      <img src="media/rummy/dapper.webp">
-      <img src="media/rummy/bby.webp">
+      <img src="media/rummy/sit.webp" class="simg">
+      <img src="media/rummy/look.webp" class="simg">
+      <img src="media/rummy/small.webp" class="simg">
+      <img src="media/rummy/yawn.webp" class="simg">
+      <img src="media/rummy/dapper.webp" class="simg">
+      <img src="media/rummy/bby.webp" class="simg">
     </div>
   </div>
 </body>
