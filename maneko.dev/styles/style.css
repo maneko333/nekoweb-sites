@@ -280,7 +280,7 @@ em {
   text-shadow: 1px 1px 1px var(--medium);
 }
 
-#em2 {
+.em2 {
   font-weight: bold;
   font-style: normal;
   color: var(--black);
