@@ -169,6 +169,7 @@ body {
   font-family: Verdana;
   font-size: 9px;
   color: var(--light);
+  text-shadow: 1px 1px 5px var(--accent3), -1px -1px 1px var(--accent1), 1px 1px 1px var(--black);
 }
 
 .linkme {
